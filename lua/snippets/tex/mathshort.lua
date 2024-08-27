@@ -125,4 +125,8 @@ return {
     { trig = "c-mat-ij", dscr = "Space of matrices template" },
     fmta([[\mathbf{M}_{<>,<>}(\mathbb{<>})]], { i(1, "i"), i(2, "j"), i(3, "R") }, { delimiters = "<>" })
   ),
+  s(
+    { trig = "c-seq", dscr = "indexed set template" },
+    fmta([[\{<>\}_{<>}^{<>}]], { i(1, "elem"), i(2, "i=1"), i(3, "k") }, { delimiters = "<>" })
+  ),
 }
